@@ -22,3 +22,9 @@ end
     :details => Faker::Lorem.paragraph
     )
 end
+
+100.times do
+  Skill.create(
+    :name => Faker::Team.creature
+  )
+end
