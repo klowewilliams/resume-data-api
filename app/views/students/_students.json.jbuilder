@@ -10,3 +10,6 @@ json.blog_site student.blog_site
 json.resume student.resume
 json.github student.github
 json.photo student.photo
+json.experiences student.experiences
+json.educations student.educations
+json.capstones student.capstones
