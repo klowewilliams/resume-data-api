@@ -41,7 +41,8 @@ end
     :name => Faker::Lorem.word,
     :description => Faker::Lorem.sentence,
     :url => Faker::Internet.url('acltc.com'),
-    :screenshot => Faker::Company.logo
+    :screenshot => Faker::Company.logo,
+    :student_id => rand(100)
     )
 
 end

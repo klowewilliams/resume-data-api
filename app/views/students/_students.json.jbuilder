@@ -12,3 +12,4 @@ json.github student.github
 json.photo student.photo
 json.experiences student.experiences
 json.educations student.educations
+json.capstones student.capstones
