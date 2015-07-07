@@ -36,3 +36,12 @@ end
     )
 end
 
+100.times do 
+  Capstone.create(
+    :name => Faker::Lorem.word,
+    :description => Faker::Lorem.sentence,
+    :url => Faker::Internet.url('acltc.com'),
+    :screenshot => Faker::Company.logo
+    )
+
+end
