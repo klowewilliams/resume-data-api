@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(version: 20150707015125) do
     t.integer  "student_id",   limit: 4
     t.string   "job_title",    limit: 255
     t.string   "company_name", limit: 255
+<<<<<<< HEAD
+=======
+  end
+
+  create_table "skills", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.integer  "student_id", limit: 4
+>>>>>>> add capstone model
   end
 
   create_table "students", force: :cascade do |t|
