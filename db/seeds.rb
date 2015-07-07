@@ -16,9 +16,9 @@
 end
 
 100.times do
-  Experience.create(
-    :degree => "Bachelors of #{Faker::Team.creature}",
-    :university => Faker::Team.name,
-    :details => Faker::Lorem.paragraph
-    )
+    Experience.create(
+        :job_title => Faker::Name.title,
+        :company_name => Faker::Company.name,
+        :details => Faker::Lorem.paragraph
+        )
 end
