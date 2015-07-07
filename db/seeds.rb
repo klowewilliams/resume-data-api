@@ -20,5 +20,8 @@ end
         :job_title => Faker::Name.title,
         :company_name => Faker::Company.name,
         :details => Faker::Lorem.paragraph
+        :start_date => "#{rand(2000..2010)}-#{rand(01..12)}-#{rand(01..28)} #{rand(01..12)}:#{rand(01..59)}:#{rand(01..59)}",
+        :end_date => "#{rand(2011..2020)}-#{rand(01..12)}-#{rand(01..28)} #{rand(01..12)}:#{rand(01..59)}:#{rand(01..59)}",
+        :student_id => rand(100)
         )
 end
