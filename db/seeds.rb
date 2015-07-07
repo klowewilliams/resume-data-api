@@ -8,8 +8,8 @@
     :short_bio => Faker::Hacker.say_something_smart,
     :linkedin => "www.linkedin.com/#{Faker::Name.first_name}",
     :twitter => "@ #{ Faker::Name.first_name}",
-    :blog_site => "www.#{Faker::Name.first_name}",
-    :resume => "www.#{Faker::Name.first_name}",
+    :blog_site => "www.#{Faker::Name.first_name}.com",
+    :resume => "www.#{Faker::Name.first_name}.com",
     :github => "www.github.com/#{Faker::Name.first_name}",
     :photo => "www.flickr.com/#{Faker::Name.first_name}"
     )
