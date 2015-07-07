@@ -33,7 +33,8 @@ ActiveRecord::Schema.define(version: 20150707015125) do
     t.integer  "student_id",   limit: 4
     t.string   "job_title",    limit: 255
     t.string   "company_name", limit: 255
-  end
+
+    end
 
   create_table "students", force: :cascade do |t|
     t.string   "first_name",   limit: 255
