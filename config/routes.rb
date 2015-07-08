@@ -21,4 +21,8 @@ Rails.application.routes.draw do
   patch "/educations/:id" => 'educations#update'
   delete "/educations/:id" => 'educations#destroy'
   
+  post "/skills" => 'skills#create'
+  patch "/skills/:id" => 'skills#update'
+  delete "/skills/:id" => 'skills#destroy'
+  
 end
