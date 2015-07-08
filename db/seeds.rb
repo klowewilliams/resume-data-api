@@ -36,14 +36,16 @@ end
     )
 end
 
+studentid = 1 
 100.times do 
   Capstone.create(
     :name => Faker::Lorem.word,
     :description => Faker::Lorem.sentence,
     :url => Faker::Internet.url('acltc.com'),
     :screenshot => Faker::Company.logo,
-    :student_id => rand(100)
+    :student_id => studentid
     )
+    studentid += 1
 end
 
 100.times do 
