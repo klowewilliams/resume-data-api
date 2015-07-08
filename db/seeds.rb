@@ -44,6 +44,12 @@ end
     :screenshot => Faker::Company.logo,
     :student_id => rand(100)
     )
+end
 
+100.times do 
+  Skill.create(
+    :name => Faker::Lorem.word,
+    :student_id => rand(100)
+    )
 end
 
