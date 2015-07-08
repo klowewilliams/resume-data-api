@@ -1,4 +1,9 @@
 class SkillsController < ApplicationController
+
+  def show
+    @skill = Skill.find_by(id: params[:id])
+  end
+
   def create
     @skill = Skill.create(name: params[:name], student_id: params[:student_id])
   end

@@ -1,0 +1,1 @@
+json.partial! 'capstones/capstones', capstone: @capstone, as: :capstone
