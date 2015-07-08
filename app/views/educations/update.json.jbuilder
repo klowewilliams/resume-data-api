@@ -1,0 +1,1 @@
+json.partial! 'educations/educations', education: @education, as: :education
