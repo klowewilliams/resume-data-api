@@ -6,7 +6,7 @@ class CapstonesController < ApplicationController
 
   def update
     @capstone = Capstone.find_by(id: params[:id])
-    @capstone.updatename: params[:name], description: params[:description], url: params[:url], screenshot: params[:screenshot], student_id: params[:student_id])
+    @capstone.update(name: params[:name], description: params[:description], url: params[:url], screenshot: params[:screenshot], student_id: params[:student_id])
   end
 
   def destroy
