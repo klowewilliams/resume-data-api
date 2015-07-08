@@ -11,5 +11,7 @@ class EducationsController < ApplicationController
   def destroy
     @education = Education.find_by(id: params[:id])
     @education.destroy
+
+    render nil
   end
 end
